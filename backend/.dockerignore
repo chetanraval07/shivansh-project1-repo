@@ -1,0 +1,5 @@
+# Keep build context small and exclude local/build metadata.
+.git
+target/
+.mvn/wrapper/maven-wrapper.jar
+*.log
